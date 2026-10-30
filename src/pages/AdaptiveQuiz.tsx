@@ -115,7 +115,7 @@ export default function AdaptiveQuiz() {
       <div className="min-h-screen bg-background">
         <Header />
         <main className="container py-8">
-          <Button variant="ghost" size="sm" className="mb-6" onClick={() => navigate("/")}>
+          <Button variant="ghost" size="sm" className="mb-6" onClick={() => navigate("/dashboard")}>
             <ArrowLeft className="w-4 h-4 mr-2" />Back
           </Button>
           
@@ -191,7 +191,7 @@ export default function AdaptiveQuiz() {
                   </div>
                 </div>
                 <div className="flex gap-4 justify-center">
-                  <Button variant="outline" onClick={() => navigate("/")}>Back to Home</Button>
+                  <Button variant="outline" onClick={() => navigate("/dashboard")}>Back to Home</Button>
                   <Button variant="hero" onClick={handleRestart}><RotateCcw className="w-4 h-4 mr-2" />Another Quiz</Button>
                 </div>
               </CardContent>

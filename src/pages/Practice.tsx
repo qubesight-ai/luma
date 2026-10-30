@@ -213,7 +213,7 @@ export default function Practice() {
               </div>
 
               <div className="flex gap-3.5 justify-center">
-                <Button variant="outline" onClick={() => navigate("/")} className="btn-gel-white border-[#c7dee1]">
+                <Button variant="outline" onClick={() => navigate("/dashboard")} className="btn-gel-white border-[#c7dee1]">
                   <ArrowLeft className="w-4 h-4 mr-2" />
                   Dashboard
                 </Button>
@@ -236,7 +236,7 @@ export default function Practice() {
         <div className="max-w-2xl mx-auto">
           {/* Header */}
           <div className="flex items-center justify-between mb-6">
-            <Button variant="ghost" onClick={() => navigate("/")} className="rounded-full bg-white/60 hover:bg-white/90 border border-white/80 shadow-sm text-[#0b3b4a]">
+            <Button variant="ghost" onClick={() => navigate("/dashboard")} className="rounded-full bg-white/60 hover:bg-white/90 border border-white/80 shadow-sm text-[#0b3b4a]">
               <ArrowLeft className="w-4 h-4 mr-2" />
               Back
             </Button>

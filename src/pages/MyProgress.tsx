@@ -61,7 +61,7 @@ export default function MyProgress() {
         <Button 
           variant="ghost" 
           size="sm" 
-          onClick={() => navigate('/')}
+          onClick={() => navigate('/dashboard')}
           className="rounded-full bg-white/70 backdrop-blur-md border border-white/80 text-foreground hover:bg-white/95 shadow-sm"
         >
           <ArrowLeft className="w-4 h-4 mr-2 text-primary" /> Home

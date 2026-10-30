@@ -136,7 +136,7 @@ export default function AdminProgress() {
               <p className="text-muted-foreground">
                 This dashboard is only available to teachers.
               </p>
-              <Button className="mt-4" onClick={() => navigate('/')}>
+              <Button className="mt-4" onClick={() => navigate('/dashboard')}>
                 Back to Dashboard
               </Button>
             </CardContent>
@@ -149,7 +149,7 @@ export default function AdminProgress() {
   return (
     <AppLayout>
       <div className="max-w-6xl mx-auto space-y-6">
-        <Button variant="ghost" size="sm" onClick={() => navigate('/')}>
+        <Button variant="ghost" size="sm" onClick={() => navigate('/dashboard')}>
           <ArrowLeft className="w-4 h-4 mr-2" /> Home
         </Button>
 

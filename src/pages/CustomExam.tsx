@@ -233,7 +233,7 @@ const CustomExam = () => {
                   <RotateCcw className="h-4 w-4 mr-2" />
                   New Exam
                 </Button>
-                <Button onClick={() => navigate("/")}>
+                <Button onClick={() => navigate("/dashboard")}>
                   Back to Home
                 </Button>
               </div>
@@ -343,7 +343,7 @@ const CustomExam = () => {
   return (
     <AppLayout>
       <div className="container py-8">
-        <Button variant="ghost" onClick={() => navigate("/")} className="mb-6">
+        <Button variant="ghost" onClick={() => navigate("/dashboard")} className="mb-6">
           <ArrowLeft className="h-4 w-4 mr-2" />
           Back to Home
         </Button>

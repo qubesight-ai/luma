@@ -46,7 +46,7 @@ export function Header({ children }: HeaderProps) {
 
   // Navigation items
   const navItems = [
-    { label: 'Home', path: '/' },
+    { label: 'Home', path: '/dashboard' },
     { label: 'Articles', path: '/articles' },
     { label: 'Grammar', path: '/grammar' },
     { label: 'Vocabulary', path: '/vocabulary' },
@@ -71,7 +71,7 @@ export function Header({ children }: HeaderProps) {
           </button>
           <button 
             className="flex items-center gap-2.5 group text-left"
-            onClick={() => navigate("/")}
+            onClick={() => navigate("/dashboard")}
             title="Luma - Learn brighter."
           >
             <div className="w-10 h-10 rounded-2xl orb-aqua flex items-center justify-center shadow-aqua-sm group-hover:scale-105 transition-all relative overflow-hidden flex-shrink-0">

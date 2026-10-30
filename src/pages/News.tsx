@@ -277,7 +277,7 @@ export default function News() {
     <div className="min-h-screen bg-background">
       <Header />
       <main className="container py-8">
-        <Button variant="ghost" size="sm" className="mb-6" onClick={() => navigate("/")}>
+        <Button variant="ghost" size="sm" className="mb-6" onClick={() => navigate("/dashboard")}>
           <ArrowLeft className="w-4 h-4 mr-2" />Back
         </Button>
 

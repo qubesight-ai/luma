@@ -180,7 +180,7 @@ export default function ListeningLab() {
               Pick any topic, choose a level, and get a 3-minute audio episode with a 10-question quiz.
             </p>
           </div>
-          <Button variant="outline" size="sm" onClick={() => navigate("/")}>
+          <Button variant="outline" size="sm" onClick={() => navigate("/dashboard")}>
             <Home className="w-4 h-4 mr-2" />
             Home
           </Button>

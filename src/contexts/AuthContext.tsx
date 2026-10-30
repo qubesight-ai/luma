@@ -55,7 +55,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
   }, [user, registerSession]);
 
   const signUp = async (email: string, password: string, displayName?: string) => {
-    const redirectUrl = `${window.location.origin}/`;
+    const redirectUrl = `${window.location.origin}/auth`;
     
     const { data, error } = await supabase.auth.signUp({
       email,
@@ -70,6 +70,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
 
     // If signup successful, update the profile and send admin notification
     if (!error && data.user) {
+      const userId = data.user.id;
       const userName = displayName || email.split('@')[0];
       
       // Update profile with display name
@@ -77,7 +78,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
         await supabase
           .from('profiles')
           .update({ display_name: userName })
-          .eq('user_id', data.user!.id);
+          .eq('user_id', userId);
       }, 100);
 
       // Send signup notification to admin (fire and forget)

@@ -47,7 +47,7 @@ export default function AdminUsers() {
               <Shield className="w-12 h-12 text-muted-foreground mx-auto mb-4" />
               <h2 className="text-xl font-semibold mb-2">Access Restricted</h2>
               <p className="text-muted-foreground">The admin panel is not available in demo mode to protect user privacy.</p>
-              <Button className="mt-4" onClick={() => navigate('/')}>Back to Dashboard</Button>
+              <Button className="mt-4" onClick={() => navigate('/dashboard')}>Back to Dashboard</Button>
             </CardContent>
           </Card>
         </div>
@@ -148,7 +148,7 @@ export default function AdminUsers() {
               <p className="text-muted-foreground mb-4">
                 You don't have permission to access this page.
               </p>
-              <Button onClick={() => navigate('/')}>
+              <Button onClick={() => navigate('/dashboard')}>
                 Go to Home
               </Button>
             </CardContent>
@@ -165,7 +165,7 @@ export default function AdminUsers() {
     <AppLayout>
       <div className="container py-8">
         <div className="flex items-center gap-4 mb-6">
-          <Button variant="ghost" size="icon" onClick={() => navigate('/')}>
+          <Button variant="ghost" size="icon" onClick={() => navigate('/dashboard')}>
             <ArrowLeft className="w-5 h-5" />
           </Button>
           <div>

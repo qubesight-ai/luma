@@ -52,7 +52,7 @@ const DemoLogin = () => {
         setError({ code: "session", message: "Signed in, but the demo session could not be started." });
         return;
       }
-      navigate("/");
+      navigate("/dashboard");
     } catch (err) {
       console.error("Demo login failed:", err);
       setError({ code: "unknown", message: "Unexpected error while loading the demo." });

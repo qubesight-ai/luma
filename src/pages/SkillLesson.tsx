@@ -450,7 +450,7 @@ export default function SkillLesson() {
 
   useEffect(() => {
     if (!skill) {
-      navigate("/");
+      navigate("/dashboard");
     }
   }, [skill, navigate]);
 
@@ -608,7 +608,7 @@ export default function SkillLesson() {
                 </div>
                 
                 <div className="flex gap-4 justify-center">
-                  <Button variant="outline" onClick={() => navigate("/")}>
+                  <Button variant="outline" onClick={() => navigate("/dashboard")}>
                     <ArrowLeft className="w-4 h-4 mr-2" />
                     Back to Home
                   </Button>
@@ -636,7 +636,7 @@ export default function SkillLesson() {
             <Button
               variant="ghost"
               size="sm"
-              onClick={() => navigate("/")}
+              onClick={() => navigate("/dashboard")}
             >
               <Home className="w-4 h-4 mr-2" />
               Home

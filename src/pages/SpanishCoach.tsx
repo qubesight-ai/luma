@@ -142,7 +142,7 @@ export default function SpanishCoach() {
             variant="ghost"
             size="sm"
             className="mb-4"
-            onClick={() => navigate("/")}
+            onClick={() => navigate("/dashboard")}
           >
             <ArrowLeft className="w-4 h-4 mr-2" />
             Back to Dashboard
