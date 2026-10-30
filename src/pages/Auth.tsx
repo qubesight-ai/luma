@@ -35,7 +35,7 @@ export default function Auth() {
 
   useEffect(() => {
     if (user) {
-      navigate('/');
+      navigate('/dashboard');
     }
   }, [user, navigate]);
 
@@ -123,7 +123,7 @@ export default function Auth() {
             title: 'Welcome!',
             description: 'You have signed in successfully',
           });
-          navigate('/');
+          navigate('/dashboard');
         }
       } else {
         const { error } = await signUp(email, password, displayName);
@@ -146,7 +146,7 @@ export default function Auth() {
             title: 'Account created!',
             description: 'Your account has been created successfully',
           });
-          navigate('/');
+          navigate('/dashboard');
         }
       }
     } finally {
@@ -173,7 +173,7 @@ export default function Auth() {
         return; // Browser is redirecting to Google
       }
       // Session is already set - navigate home
-      navigate('/');
+      navigate('/dashboard');
     } catch {
       toast({
         title: 'Error',

@@ -105,7 +105,7 @@ export default function Curriculum() {
             <Button
               variant="ghost"
               size="icon"
-              onClick={() => navigate("/")}
+              onClick={() => navigate("/dashboard")}
               className="text-white hover:bg-white/20 rounded-full w-10 h-10 border border-white/40 shadow-sm"
             >
               <ArrowLeft className="w-5 h-5" />

@@ -9,6 +9,7 @@ import { AdaptiveLearningProvider } from "@/hooks/useAdaptiveLearning";
 import { AuthProvider } from "@/contexts/AuthContext";
 import { ProtectedRoute } from "@/components/ProtectedRoute";
 import Index from "./pages/Index";
+import Landing from "./pages/Landing";
 import Curriculum from "./pages/Curriculum";
 import Grammar from "./pages/Grammar";
 import Vocabulary from "./pages/Vocabulary";
@@ -55,14 +56,15 @@ const App = () => (
                   <Route path="/demo-login" element={<DemoLogin />} />
                   
                   {/* Legacy route: approval gate removed */}
-                  <Route path="/pending-approval" element={<Navigate to="/" replace />} />
+                  <Route path="/pending-approval" element={<Navigate to="/dashboard" replace />} />
                   <Route path="/session-expired" element={<SessionExpired />} />
                   
                   {/* Admin routes */}
                   <Route path="/admin/users" element={<ProtectedRoute><AdminUsers /></ProtectedRoute>} />
                   
                   {/* Protected routes - Require login AND approval */}
-                  <Route path="/" element={<ProtectedRoute><Index /></ProtectedRoute>} />
+                  <Route path="/" element={<Landing />} />
+                  <Route path="/dashboard" element={<ProtectedRoute><Index /></ProtectedRoute>} />
                   <Route path="/curriculum" element={<ProtectedRoute><Curriculum /></ProtectedRoute>} />
                   <Route path="/grammar" element={<ProtectedRoute><Grammar /></ProtectedRoute>} />
                   <Route path="/vocabulary" element={<ProtectedRoute><Vocabulary /></ProtectedRoute>} />

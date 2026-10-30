@@ -82,7 +82,7 @@ export default function Settings() {
               variant="ghost"
               size="sm"
               className="mb-4 rounded-full bg-white/70 backdrop-blur-md border border-white/80 text-foreground hover:bg-white/95 shadow-sm"
-              onClick={() => navigate("/")}
+              onClick={() => navigate("/dashboard")}
             >
               <ArrowLeft className="w-4 h-4 mr-2 text-primary" />
               Back to Dashboard

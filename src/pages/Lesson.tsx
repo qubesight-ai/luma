@@ -167,7 +167,7 @@ export default function Lesson() {
                   <Button variant="outline" onClick={() => navigate("/grammar")}>
                     Back to Grammar
                   </Button>
-                  <Button variant="hero" onClick={() => navigate("/")}>
+                  <Button variant="hero" onClick={() => navigate("/dashboard")}>
                     Go to Dashboard
                   </Button>
                 </div>
@@ -190,7 +190,7 @@ export default function Lesson() {
             <Button
               variant="ghost"
               size="sm"
-              onClick={() => navigate("/")}
+              onClick={() => navigate("/dashboard")}
             >
               <Home className="w-4 h-4 mr-2" />
               Home

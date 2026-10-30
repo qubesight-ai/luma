@@ -1,0 +1,258 @@
+.luma-landing {
+  --luma-on-primary-container-rgb: 247 249 255;
+  --luma-tertiary-rgb: 46 102 0;
+  --luma-on-primary-fixed-variant-rgb: 0 74 121;
+  --luma-secondary-fixed-dim-rgb: 106 211 255;
+  --luma-outline-variant-rgb: 192 199 210;
+  --luma-on-background-rgb: 17 29 34;
+  --luma-on-primary-rgb: 255 255 255;
+  --luma-surface-container-highest-rgb: 215 229 235;
+  --luma-surface-container-high-rgb: 220 234 240;
+  --luma-primary-rgb: 0 94 151;
+  --luma-inverse-primary-rgb: 154 203 255;
+  --luma-error-rgb: 186 26 26;
+  --luma-secondary-container-rgb: 98 208 253;
+  --luma-secondary-rgb: 0 102 132;
+  --luma-secondary-fixed-rgb: 190 233 255;
+  --luma-surface-container-lowest-rgb: 255 255 255;
+  --luma-inverse-surface-rgb: 38 50 55;
+  --luma-surface-dim-rgb: 206 220 226;
+  --luma-surface-container-low-rgb: 232 246 252;
+  --luma-on-secondary-fixed-variant-rgb: 0 77 101;
+  --luma-surface-rgb: 242 251 255;
+  --luma-on-tertiary-container-rgb: 237 255 219;
+  --luma-background-rgb: 242 251 255;
+  --luma-tertiary-fixed-dim-rgb: 138 219 83;
+  --luma-outline-rgb: 112 120 130;
+  --luma-tertiary-fixed-rgb: 164 248 108;
+  --luma-on-surface-variant-rgb: 64 71 81;
+  --luma-on-tertiary-rgb: 255 255 255;
+  --luma-tertiary-container-rgb: 60 130 0;
+  --luma-primary-container-rgb: 8 119 189;
+  --luma-on-tertiary-fixed-variant-rgb: 35 81 0;
+  --luma-surface-tint-rgb: 0 98 158;
+  --luma-error-container-rgb: 255 218 214;
+  --luma-primary-fixed-rgb: 207 229 255;
+  --luma-on-secondary-rgb: 255 255 255;
+  --luma-surface-bright-rgb: 242 251 255;
+  --luma-on-primary-fixed-rgb: 0 29 52;
+  --luma-inverse-on-surface-rgb: 229 243 249;
+  --luma-surface-container-rgb: 226 240 246;
+  --luma-on-error-container-rgb: 147 0 10;
+  --luma-on-tertiary-fixed-rgb: 10 33 0;
+  --luma-on-secondary-container-rgb: 0 88 114;
+  --luma-on-surface-rgb: 17 29 34;
+  --luma-primary-fixed-dim-rgb: 154 203 255;
+  --luma-on-secondary-fixed-rgb: 0 31 42;
+  --luma-on-error-rgb: 255 255 255;
+  --luma-surface-variant-rgb: 215 229 235;
+
+  --luma-on-primary-container: #f7f9ff;
+  --luma-tertiary: #2e6600;
+  --luma-on-primary-fixed-variant: #004a79;
+  --luma-secondary-fixed-dim: #6ad3ff;
+  --luma-outline-variant: #c0c7d2;
+  --luma-on-background: #111d22;
+  --luma-on-primary: #ffffff;
+  --luma-surface-container-highest: #d7e5eb;
+  --luma-surface-container-high: #dceaf0;
+  --luma-primary: #005e97;
+  --luma-inverse-primary: #9acbff;
+  --luma-error: #ba1a1a;
+  --luma-secondary-container: #62d0fd;
+  --luma-secondary: #006684;
+  --luma-secondary-fixed: #bee9ff;
+  --luma-surface-container-lowest: #ffffff;
+  --luma-inverse-surface: #263237;
+  --luma-surface-dim: #cedce2;
+  --luma-surface-container-low: #e8f6fc;
+  --luma-on-secondary-fixed-variant: #004d65;
+  --luma-surface: #f2fbff;
+  --luma-on-tertiary-container: #edffdb;
+  --luma-background: #f2fbff;
+  --luma-tertiary-fixed-dim: #8adb53;
+  --luma-outline: #707882;
+  --luma-tertiary-fixed: #a4f86c;
+  --luma-on-surface-variant: #404751;
+  --luma-on-tertiary: #ffffff;
+  --luma-tertiary-container: #3c8200;
+  --luma-primary-container: #0877bd;
+  --luma-on-tertiary-fixed-variant: #235100;
+  --luma-surface-tint: #00629e;
+  --luma-error-container: #ffdad6;
+  --luma-primary-fixed: #cfe5ff;
+  --luma-on-secondary: #ffffff;
+  --luma-surface-bright: #f2fbff;
+  --luma-on-primary-fixed: #001d34;
+  --luma-inverse-on-surface: #e5f3f9;
+  --luma-surface-container: #e2f0f6;
+  --luma-on-error-container: #93000a;
+  --luma-on-tertiary-fixed: #0a2100;
+  --luma-on-secondary-container: #005872;
+  --luma-on-surface: #111d22;
+  --luma-primary-fixed-dim: #9acbff;
+  --luma-on-secondary-fixed: #001f2a;
+  --luma-on-error: #ffffff;
+  --luma-surface-variant: #d7e5eb;
+  --luma-shadow-1: 0 4px 12px rgba(8,119,189,0.06);
+  --luma-shadow-2: 0 8px 24px rgba(8,119,189,0.1);
+  --luma-shadow-3: 0 4px 16px rgba(8,119,189,0.12);
+  --luma-shadow-4: 0 2px 6px rgba(8,119,189,0.06);
+  --luma-shadow-5: 0 4px 12px rgba(8,119,189,0.2);
+  --luma-shadow-6: 0 8px 32px 0 rgba(8,119,189,0.14);
+  --luma-shadow-7: inset 0 1px 1px rgba(255,255,255,0.6);
+  --luma-shadow-8: 0 2px 8px rgba(8,119,189,0.08);
+  --luma-shadow-9: 0 4px 16px rgba(60,130,0,0.35),inset 0 2px 3px rgba(255,255,255,0.7);
+  --luma-shadow-10: inset 0 1px 2px rgba(255,255,255,0.6);
+  --luma-shadow-11: 0 4px 16px rgba(8,119,189,0.18);
+  --luma-shadow-12: 0 0 8px #3c8200;
+  --luma-shadow-13: 0 2px 4px rgba(255,255,255,0.8);
+  --luma-shadow-14: 0 8px 24px rgba(60,130,0,0.4),0 2px 4px rgba(0,0,0,0.12);
+  --luma-shadow-15: 0 1px 2px rgba(0,0,0,0.3);
+  --luma-shadow-16: 0 6px 20px rgba(8,119,189,0.15);
+  --luma-shadow-17: 0 0 6px rgba(60,130,0,0.4);
+  --luma-shadow-18: 0 12px 32px rgba(8,119,189,0.25);
+  --luma-shadow-19: 0 12px 28px rgba(60,130,0,0.25);
+  --luma-shadow-20: 0 20px 50px rgba(8,119,189,0.28),0 4px 12px rgba(0,0,0,0.06);
+  --luma-shadow-21: inset 0 1px 1px rgba(255,255,255,0.8);
+  --luma-shadow-22: inset 0 1px 2px rgba(255,255,255,0.9),0 2px 8px rgba(8,119,189,0.06);
+  --luma-shadow-23: inset 0 2px 4px rgba(0,0,0,0.1);
+  --luma-shadow-24: 0 0 4px #3c8200;
+  --luma-shadow-25: 0 2px 8px rgba(98,208,253,0.3);
+  --luma-shadow-26: 0 4px 16px rgba(8,119,189,0.08);
+  --luma-shadow-27: 0 2px 8px rgba(8,119,189,0.3);
+  --luma-shadow-28: inset 0 1px 2px rgba(0,0,0,0.05);
+  --luma-shadow-29: 0 8px 24px rgba(8,119,189,0.08);
+  --luma-shadow-30: 0 16px 36px rgba(8,119,189,0.18);
+  --luma-shadow-31: inset 0 2px 4px rgba(255,255,255,0.9),0 4px 12px rgba(8,119,189,0.2);
+  --luma-shadow-32: inset 0 2px 4px rgba(255,255,255,0.9),0 4px 12px rgba(60,130,0,0.2);
+  --luma-shadow-33: inset 0 2px 4px rgba(255,255,255,0.9),0 4px 12px rgba(0,94,151,0.2);
+  --luma-shadow-34: inset 0 2px 4px rgba(255,255,255,0.9),0 4px 12px rgba(0,0,0,0.08);
+  --luma-shadow-35: inset 0 2px 4px rgba(255,255,255,0.9),0 4px 12px rgba(46,102,0,0.2);
+  --luma-shadow-36: 0 8px 28px rgba(8,119,189,0.1);
+  --luma-shadow-37: inset 0 1px 2px rgba(255,255,255,0.8),0 4px 12px rgba(8,119,189,0.3);
+  --luma-shadow-38: inset 0 1px 2px rgba(255,255,255,0.8),0 4px 12px rgba(60,130,0,0.3);
+  --luma-shadow-39: inset 0 1px 2px rgba(255,255,255,0.8),0 4px 12px rgba(0,94,151,0.3);
+  --luma-shadow-40: 0 4px 16px rgba(8,119,189,0.06);
+  --luma-shadow-41: 0 8px 24px rgba(8,119,189,0.12);
+  --luma-shadow-42: inset 0 1px 2px rgba(255,255,255,0.9);
+  --luma-shadow-43: 0 6px 20px rgba(8,119,189,0.12);
+  --luma-shadow-44: 0 12px 28px rgba(8,119,189,0.18);
+  --luma-shadow-45: 0 2px 6px rgba(60,130,0,0.3);
+  --luma-shadow-46: 0 8px 24px rgba(8,119,189,0.35);
+  --luma-shadow-47: 0 20px 50px rgba(8,119,189,0.25);
+  --luma-shadow-48: 0 0 8px #2e6600;
+  --luma-shadow-49: 0 8px 20px rgba(8,119,189,0.3),inset 0 2px 4px rgba(255,255,255,0.9);
+  --luma-shadow-50: inset 0 1px 2px rgba(0,0,0,0.04);
+  --luma-shadow-51: 0 24px 64px rgba(8,119,189,0.22);
+  --luma-shadow-52: 0 8px 24px rgba(8,119,189,0.25);
+  --luma-shadow-53: 0 8px 24px rgba(60,130,0,0.4);
+  --luma-shadow-54: 0 -8px 32px 0 rgba(8,119,189,0.08);
+  letter-spacing: 0;
+}
+.luma-landing .p-gutter { padding: 1.25rem; }
+.luma-landing .px-gutter { padding-inline: 1.25rem; }
+.luma-landing .py-gutter { padding-block: 1.25rem; }
+.luma-landing .pt-gutter { padding-top: 1.25rem; }
+.luma-landing .pb-gutter { padding-bottom: 1.25rem; }
+.luma-landing .mt-gutter { margin-top: 1.25rem; }
+.luma-landing .mb-gutter { margin-bottom: 1.25rem; }
+.luma-landing .gap-gutter { gap: 1.25rem; }
+.luma-landing .space-y-gutter > :not([hidden]) ~ :not([hidden]) { margin-top: 1.25rem; }
+.luma-landing .p-margin { padding: 1.5rem; }
+.luma-landing .px-margin { padding-inline: 1.5rem; }
+.luma-landing .py-margin { padding-block: 1.5rem; }
+.luma-landing .pt-margin { padding-top: 1.5rem; }
+.luma-landing .pb-margin { padding-bottom: 1.5rem; }
+.luma-landing .mt-margin { margin-top: 1.5rem; }
+.luma-landing .mb-margin { margin-bottom: 1.5rem; }
+.luma-landing .gap-margin { gap: 1.5rem; }
+.luma-landing .space-y-margin > :not([hidden]) ~ :not([hidden]) { margin-top: 1.5rem; }
+.luma-landing .p-space-sm { padding: 0.5rem; }
+.luma-landing .px-space-sm { padding-inline: 0.5rem; }
+.luma-landing .py-space-sm { padding-block: 0.5rem; }
+.luma-landing .pt-space-sm { padding-top: 0.5rem; }
+.luma-landing .pb-space-sm { padding-bottom: 0.5rem; }
+.luma-landing .mt-space-sm { margin-top: 0.5rem; }
+.luma-landing .mb-space-sm { margin-bottom: 0.5rem; }
+.luma-landing .gap-space-sm { gap: 0.5rem; }
+.luma-landing .space-y-space-sm > :not([hidden]) ~ :not([hidden]) { margin-top: 0.5rem; }
+.luma-landing .p-space-lg { padding: 1.5rem; }
+.luma-landing .px-space-lg { padding-inline: 1.5rem; }
+.luma-landing .py-space-lg { padding-block: 1.5rem; }
+.luma-landing .pt-space-lg { padding-top: 1.5rem; }
+.luma-landing .pb-space-lg { padding-bottom: 1.5rem; }
+.luma-landing .mt-space-lg { margin-top: 1.5rem; }
+.luma-landing .mb-space-lg { margin-bottom: 1.5rem; }
+.luma-landing .gap-space-lg { gap: 1.5rem; }
+.luma-landing .space-y-space-lg > :not([hidden]) ~ :not([hidden]) { margin-top: 1.5rem; }
+.luma-landing .p-space-xs { padding: 0.25rem; }
+.luma-landing .px-space-xs { padding-inline: 0.25rem; }
+.luma-landing .py-space-xs { padding-block: 0.25rem; }
+.luma-landing .pt-space-xs { padding-top: 0.25rem; }
+.luma-landing .pb-space-xs { padding-bottom: 0.25rem; }
+.luma-landing .mt-space-xs { margin-top: 0.25rem; }
+.luma-landing .mb-space-xs { margin-bottom: 0.25rem; }
+.luma-landing .gap-space-xs { gap: 0.25rem; }
+.luma-landing .space-y-space-xs > :not([hidden]) ~ :not([hidden]) { margin-top: 0.25rem; }
+.luma-landing .p-space-xl { padding: 2.5rem; }
+.luma-landing .px-space-xl { padding-inline: 2.5rem; }
+.luma-landing .py-space-xl { padding-block: 2.5rem; }
+.luma-landing .pt-space-xl { padding-top: 2.5rem; }
+.luma-landing .pb-space-xl { padding-bottom: 2.5rem; }
+.luma-landing .mt-space-xl { margin-top: 2.5rem; }
+.luma-landing .mb-space-xl { margin-bottom: 2.5rem; }
+.luma-landing .gap-space-xl { gap: 2.5rem; }
+.luma-landing .space-y-space-xl > :not([hidden]) ~ :not([hidden]) { margin-top: 2.5rem; }
+.luma-landing .p-space-md { padding: 1rem; }
+.luma-landing .px-space-md { padding-inline: 1rem; }
+.luma-landing .py-space-md { padding-block: 1rem; }
+.luma-landing .pt-space-md { padding-top: 1rem; }
+.luma-landing .pb-space-md { padding-bottom: 1rem; }
+.luma-landing .mt-space-md { margin-top: 1rem; }
+.luma-landing .mb-space-md { margin-bottom: 1rem; }
+.luma-landing .gap-space-md { gap: 1rem; }
+.luma-landing .space-y-space-md > :not([hidden]) ~ :not([hidden]) { margin-top: 1rem; }
+.luma-landing .font-display-hero-mobile { font-family: Plus Jakarta Sans, sans-serif; }
+.luma-landing .font-body-sm { font-family: "Source Sans 3", sans-serif; }
+.luma-landing .font-label-sm { font-family: "Source Sans 3", sans-serif; }
+.luma-landing .font-headline-md { font-family: Plus Jakarta Sans, sans-serif; }
+.luma-landing .font-headline-sm { font-family: Plus Jakarta Sans, sans-serif; }
+.luma-landing .font-body-md { font-family: "Source Sans 3", sans-serif; }
+.luma-landing .font-headline-lg-mobile { font-family: Plus Jakarta Sans, sans-serif; }
+.luma-landing .font-display-hero { font-family: Plus Jakarta Sans, sans-serif; }
+.luma-landing .font-headline-lg { font-family: Plus Jakarta Sans, sans-serif; }
+.luma-landing .font-label-md { font-family: "Source Sans 3", sans-serif; }
+.luma-landing .font-body-lg { font-family: "Source Sans 3", sans-serif; }
+.luma-landing .font-label-lg { font-family: "Source Sans 3", sans-serif; }
+.luma-landing .font-weight { font-family: 600; }
+.luma-landing .text-display-hero-mobile { font-size: 32px; line-height: 40px; font-weight: 700; }
+.luma-landing .text-body-sm { font-size: 14px; line-height: 20px; font-weight: 400; }
+.luma-landing .text-label-sm { font-size: 10px; line-height: 14px; font-weight: 700; }
+.luma-landing .text-headline-md { font-size: 24px; line-height: 32px; font-weight: 600; }
+.luma-landing .text-headline-sm { font-size: 20px; line-height: 28px; font-weight: 600; }
+.luma-landing .text-body-md { font-size: 16px; line-height: 24px; font-weight: 400; }
+.luma-landing .text-headline-lg-mobile { font-size: 26px; line-height: 34px; font-weight: 600; }
+.luma-landing .text-display-hero { font-size: 48px; line-height: 56px; font-weight: 700; }
+.luma-landing .text-headline-lg { font-size: 32px; line-height: 40px; font-weight: 600; }
+.luma-landing .text-label-md { font-size: 12px; line-height: 16px; font-weight: 600; }
+.luma-landing .text-body-lg { font-size: 18px; line-height: 28px; font-weight: 400; }
+.luma-landing .text-label-lg { font-size: 14px; line-height: 20px; font-weight: 600; }
+
+.luma-landing h1, .luma-landing h2, .luma-landing h3, .luma-landing h4 { color: var(--luma-on-surface); text-shadow: none; letter-spacing: 0; }
+.luma-landing .rounded-xl { border-radius: .75rem; }
+.luma-landing .rounded-2xl { border-radius: 1rem; }
+.luma-landing .rounded-3xl { border-radius: 1.5rem; }
+.luma-landing .material-symbols-outlined { font-family: "Material Symbols Outlined"; font-weight: normal; font-style: normal; line-height: 1; display: inline-block; white-space: nowrap; direction: ltr; -webkit-font-smoothing: antialiased; }
+.luma-landing section { scroll-margin-top: 110px; }
+@media (max-width: 640px) {
+  .luma-landing .text-display-hero { font-size: 32px; line-height: 40px; }
+  .luma-landing .text-headline-lg { font-size: 26px; line-height: 34px; }
+  .luma-landing header > div { padding-inline: .75rem; gap: .5rem; }
+  .luma-landing header .text-headline-sm { font-size: 16px; line-height: 20px; }
+  .luma-landing header .px-space-lg { padding-inline: .75rem; }
+  .luma-landing header .w-8 { display: none; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .luma-landing *, .luma-landing *::before, .luma-landing *::after { animation: none !important; transition: none !important; scroll-behavior: auto !important; }
+}

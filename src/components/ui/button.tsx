@@ -9,6 +9,7 @@ const buttonVariants = cva(
   {
     variants: {
       variant: {
+        landing: "",
         default: "btn-gel-aqua shadow-aqua-sm hover:shadow-aqua-md",
         destructive: "rounded-full bg-gradient-to-b from-rose-400 to-rose-600 text-white font-bold shadow-[inset_0_2px_3px_rgba(255,255,255,0.6),0_8px_20px_rgba(225,29,72,0.35)] hover:brightness-105",
         outline: "rounded-full border-2 border-primary/60 bg-white/70 text-primary hover:bg-primary hover:text-white backdrop-blur-md shadow-[0_4px_12px_rgba(38,198,218,0.12)] hover:shadow-aqua-sm transition-all",
@@ -21,6 +22,7 @@ const buttonVariants = cva(
         success: "btn-gel-green shadow-[inset_0_2px_3px_rgba(255,255,255,0.65),0_8px_20px_rgba(102,187,106,0.35)]",
       },
       size: {
+        landing: "h-auto whitespace-normal",
         default: "h-10 px-6 py-2",
         sm: "h-8 px-4 text-xs",
         lg: "h-12 px-8 text-base",
